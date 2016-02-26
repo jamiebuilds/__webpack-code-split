@@ -1,7 +1,8 @@
 {
   "name": "webpack-code-split",
   "scripts": {
-    "build": "rm -rf dist && webpack --config webpack.conf.js"
+    "build": "rm -rf dist && webpack --config webpack.conf.js --progress --colors",
+    "dev": "rm -rf dist && webpack --config webpack.conf.js --progress --colors --watch"
   },
   "devDependencies": {
     "globby": "^4.0.0",
