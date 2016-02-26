@@ -20,6 +20,10 @@ module.exports = {
     filename: '[name].js'
   },
   plugins: [
-    new webpack.optimize.AggressiveMergingPlugin()
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'main',
+      filename: 'main.js',
+      minChunks: 2
+    })
   ]
 };

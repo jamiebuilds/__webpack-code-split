@@ -1,7 +1,7 @@
 {
   "name": "webpack-code-split",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "rm -rf dist && webpack --config webpack.conf.js"
   },
   "devDependencies": {
     "globby": "^4.0.0",
