@@ -1,0 +1,10 @@
+{
+  "name": "webpack-code-split",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "globby": "^4.0.0",
+    "webpack": "^1.12.14"
+  }
+}
